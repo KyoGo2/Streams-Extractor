@@ -1,6 +1,4 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-# @trojanzhex
 
 
 from pyrogram import filters
@@ -24,7 +22,7 @@ async def start(client, message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "⭕️ JOIN OUR CHANNEL ⭕️", url="https://t.me/TroJanzHEX")
+                        "⭕️ JOIN OUR GROUP ⭕️", url="https://t.me/joinchat/igu1BHIooAhkYmMx")
                 ]
             ]
         ),
@@ -45,7 +43,7 @@ async def help(client, message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "⭕️ SUPPORT ⭕️", url="https://t.me/TroJanzSupport")
+                        "⭕️ SUPPORT ⭕️", url="https://t.me/joinchat/igu1BHIooAhkYmMx")
                 ]
             ]
         ),
@@ -66,7 +64,7 @@ async def about(client, message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/TroJanzHEX/Streams-Extractor")
+                        "SOURCE CODE", url="https://github.com/KyoGo2/Streams-Extractor")
                 ]
             ]
         ),
