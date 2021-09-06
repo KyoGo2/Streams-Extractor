@@ -34,11 +34,11 @@
 ## Installation
 
 ### Deploy to Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TroJanzHEX/Streams-Extractor)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/KyoGo2/Streams-Extractor)
 
 ### Deploy in your vps
 ```sh
-git clone https://github.com/TroJanzHEX/Streams-Extractor
+git clone https://github.com/KyoGo2/Streams-Extractor
 cd Streams-Extractor
 pip3 install -r requirements.txt
 # <Create config.py appropriately>
