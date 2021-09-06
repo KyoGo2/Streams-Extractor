@@ -1,7 +1,4 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-# @trojanzhex
-
 
 import time
 
@@ -42,7 +39,7 @@ async def upload_audio(client, message, file_loc):
             chat_id=message.chat.id,
             audio=file_loc,
             thumb=thumb,
-            caption="**@TroJanzHEX**",
+            caption="**Audio Extractor**",
             title=title,
             performer=artist,
             duration=duration,
@@ -76,7 +73,7 @@ async def upload_subtitle(client, message, file_loc):
         await client.send_document(
             chat_id=message.chat.id,
             document=file_loc,
-            caption="**@TroJanzHEX**",
+            caption="**Audio Extractor**",
             progress=progress_func,
             progress_args=(
                 "**Uploading extracted subtitle...**",
